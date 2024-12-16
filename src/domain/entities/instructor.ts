@@ -1,5 +1,5 @@
-import { Entity } from "@/core/entities/entity"
-import { UniqueEntityID } from "@/core/entities/unique-entity-id"
+import { Entity } from '@/core/entities/entity'
+import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 
 interface InstructorProps {
   name: string
@@ -8,7 +8,7 @@ interface InstructorProps {
 export class Instructor extends Entity<InstructorProps> {
   static create(
     props: InstructorProps,
-    id?: UniqueEntityID
+    id?: UniqueEntityID,
   ) {
     const instructor = new Instructor(props, id)
 
