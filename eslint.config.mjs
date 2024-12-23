@@ -13,6 +13,7 @@ export default [
       camelcase: 'off',
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-empty-object-type': 'on',
       '@stylistic/max-len': ['warn', {
         code: 120,
         tabWidth: 2,
